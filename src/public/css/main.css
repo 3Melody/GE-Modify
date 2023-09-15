@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  display: flex;
+  width: 1920px;
+  height: 123px;
+  flex-shrink: 0;
+  background-color: #72409B; }
+
+.left-nav {
+  display: flex;
+  list-style: none; }
