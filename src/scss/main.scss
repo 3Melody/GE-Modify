@@ -13,13 +13,12 @@ $color-font:#fff;
 
 .navbar{
     display: flex;
-    width: 1920px;
     height: 123px;
     flex-shrink: 0;
     background-color: $color-main;
     justify-content: space-between;
     align-items: center;
-    padding:0 228px;
+    padding:0 160px;
     color: $color-font;
     font-weight: bold;
 }
@@ -57,3 +56,33 @@ $color-font:#fff;
 .right-nav img{
     margin-right: 5px;
 }
+
+.dropdown-aboutme{
+    display: none;
+    position: absolute;
+    background: #E5E5E5;
+    width: 272px;
+    left: 470px;
+}
+
+.dropdown-aboutme ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.dropdown-aboutme li{
+    padding: 12px;
+    color: $color-main;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.dropdown-aboutme li:hover{
+    color: #fff;
+    background-color: $color-main;
+}
+
+
