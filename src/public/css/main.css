@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Prompt&display=swap");
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Prompt', sans-serif; }
 
 .navbar {
   display: flex;
@@ -11,7 +14,9 @@
   background-color: #72409B;
   justify-content: space-between;
   align-items: center;
-  padding: 0 228px; }
+  padding: 0 228px;
+  color: #fff;
+  font-weight: bold; }
 
 .left-nav {
   display: flex;
@@ -19,9 +24,22 @@
 
 .left-nav ul {
   display: flex;
-  list-style: none; }
+  list-style: none;
+  align-items: center;
+  margin-left: 55px; }
+
+.left-nav li {
+  margin-right: 30px;
+  display: flex;
+  align-items: center; }
 
 .left-nav img {
   width: 65px;
-  height: 65px;
-  flex-shrink: 0; }
+  height: 65px; }
+
+.right-nav {
+  display: flex;
+  align-items: center; }
+
+.right-nav img {
+  margin-right: 5px; }
