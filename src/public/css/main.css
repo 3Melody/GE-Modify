@@ -8,8 +8,20 @@
   width: 1920px;
   height: 123px;
   flex-shrink: 0;
-  background-color: #72409B; }
+  background-color: #72409B;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 228px; }
 
 .left-nav {
   display: flex;
+  align-items: center; }
+
+.left-nav ul {
+  display: flex;
   list-style: none; }
+
+.left-nav img {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0; }
