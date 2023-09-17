@@ -75,9 +75,9 @@ $color-font:#fff;
     padding: 12px;
     color: $color-main;
     font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .dropdown-aboutme li:hover{
@@ -85,4 +85,35 @@ line-height: normal;
     background-color: $color-main;
 }
 
+.service-system{
+    display: none;
+    position: absolute;
+    background: #E5E5E5;
+    width: 272px;
+    left: 605px;
+}
 
+.service-system ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.service-system li{
+    padding: 12px;
+    color: $color-main;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service-system li:hover{
+    color: #fff;
+    background-color: $color-main;
+}
+
+a{
+    text-decoration: none;
+    color: $color-font;
+}

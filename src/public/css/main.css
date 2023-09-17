@@ -66,3 +66,31 @@
 .dropdown-aboutme li:hover {
   color: #fff;
   background-color: #72409B; }
+
+.service-system {
+  display: none;
+  position: absolute;
+  background: #E5E5E5;
+  width: 272px;
+  left: 605px; }
+
+.service-system ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; }
+
+.service-system li {
+  padding: 12px;
+  color: #72409B;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; }
+
+.service-system li:hover {
+  color: #fff;
+  background-color: #72409B; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
