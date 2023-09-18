@@ -41,7 +41,8 @@
   align-items: center; }
 
 .right-nav img {
-  margin-right: 5px; }
+  margin: 5px;  
+}
 
 .dropdown-aboutme {
   display: none;
